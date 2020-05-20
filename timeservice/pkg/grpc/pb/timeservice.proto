@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package pb;
+
+
+
+//The Timeservice service definition.
+service Timeservice {
+ rpc GetTimeByTimeZone (GetTimeByTimeZoneRequest) returns (GetTimeByTimeZoneReply);
+}
+
+message GetTimeByTimeZoneRequest {}
+
+message GetTimeByTimeZoneReply {}
+
