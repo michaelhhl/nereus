@@ -4,7 +4,7 @@ import (
 	"context"
 
 	endpoint "github.com/go-kit/kit/endpoint"
-	service "hhl.com/timeservice/pkg/service"
+	service "github.com/michaelhhl/nereus/timeservice/pkg/service"
 )
 
 // GetTimeByTimeZoneRequest collects the request parameters for the GetTimeByTimeZone method.

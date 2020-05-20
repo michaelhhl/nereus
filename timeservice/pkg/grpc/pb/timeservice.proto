@@ -9,7 +9,11 @@ service Timeservice {
  rpc GetTimeByTimeZone (GetTimeByTimeZoneRequest) returns (GetTimeByTimeZoneReply);
 }
 
-message GetTimeByTimeZoneRequest {}
+message GetTimeByTimeZoneRequest {
+    string timeZone = 1;
+}
 
-message GetTimeByTimeZoneReply {}
+message GetTimeByTimeZoneReply {
+    string timeIs = 1;
+}
 

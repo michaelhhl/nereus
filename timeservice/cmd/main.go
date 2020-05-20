@@ -1,6 +1,6 @@
 package main
 
-import service "hhl.com/timeservice/cmd/service"
+import service "github.com/michaelhhl/nereus/timeservice/cmd/service"
 
 func main() {
 	service.Run()
